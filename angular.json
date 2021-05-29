@@ -31,6 +31,9 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "node_modules/bootstrap/scss/bootstrap.scss",
               "src/styles.scss"
             ],
             "scripts": []
@@ -94,6 +97,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -127,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "preTempo"
+  "defaultProject": "preTempo",
+  "cli": {
+    "analytics": "27a36e62-e94c-42da-bc4a-88bf5e8b4e47"
+  }
 }
